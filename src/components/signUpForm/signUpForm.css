@@ -1,0 +1,18 @@
+.form-section{
+  width: 100vw;
+  max-width: 50%;
+  height: 100vh;
+  border: 1px solid black;
+  right: 0;
+  position: absolute;
+
+
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
