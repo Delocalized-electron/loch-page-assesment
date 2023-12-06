@@ -1,18 +1,61 @@
 .form-section{
   width: 100vw;
-  max-width: 50%;
+  max-width: 40%;
   height: 100vh;
   border: 1px solid black;
   right: 0;
   position: absolute;
-
+  display: flex;
+  flex-direction: column;
 
 }
+.form>h5{
+  margin-top: 2rem;
+  width: max-content;
+  font-size: small;
+  font-weight: 600;
+  
+  
+}
+
+
 
 .form{
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  border: 1px solid red;
+  top: 30%;
+  padding: 1rem;
+}
+
+.form>p{
+  color: #B0B1B3;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.email-field{
+    width: 17rem;
+    border-color: #E5E5E6;
+    color: #CACBCC;
+    border-radius: 5px;
+    height: auto;
+    padding: 1rem 1.5rem;
+    font-size: medium;
+    box-sizing: border-box;
+    margin:  1rem auto;
+}
+
+.submit-btn{
+  width: 17rem;
+  background-color: #19191A;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  font-weight: 600;
 }
