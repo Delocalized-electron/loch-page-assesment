@@ -22,9 +22,10 @@
 
 
 @media screen and (max-width:750px) {
-  .notification-text-info{
-    max-width: 2rem;;
+  .info-head{
     width: auto;
     margin-bottom: 2rem;
+    font-size: 1.5rem;
+    width: 100%;
   }
 }

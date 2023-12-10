@@ -17,9 +17,12 @@
 
 @media screen and (max-width:750px) {
   .side-info{
-    flex-direction: column;
+
+    width: 100%;
+    max-width: 100%;
   }
   .notification-info{
-    flex-direction: column;
+
+    padding: 1rem;
   }
 }
