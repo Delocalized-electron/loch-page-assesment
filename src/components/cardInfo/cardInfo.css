@@ -72,7 +72,8 @@
 }
 
 .scroller .card-layout{
-  animation: scroll 5s linear infinite;
+  animation: scroll 25s linear infinite;
+  flex-shrink: 0; 
 }
 
 
@@ -82,7 +83,7 @@
   }
 
   100% {
-    transform: translate(calc(-100% - 25rem));
+    transform: translate(calc(-100% - 27rem));
   }
   
 }
