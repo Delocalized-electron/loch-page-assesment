@@ -4,7 +4,8 @@
   margin: 2rem 0;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 
 .notification-info{
@@ -16,6 +17,9 @@
 
 @media screen and (max-width:750px) {
   .side-info{
+    flex-direction: column;
+  }
+  .notification-info{
     flex-direction: column;
   }
 }
