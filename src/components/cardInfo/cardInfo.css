@@ -1,6 +1,6 @@
 .card-info{
   height: fit-content;
-  width: 25rem;
+  width: 50%;
   padding-left: 2rem;
   margin-left: 2rem;
   display: flex;
@@ -86,4 +86,11 @@
     transform: translate(calc(-100% - 27rem));
   }
   
+}
+
+@media screen and (max-width:750px) {
+  .card-info{
+    max-width: 100%;
+    
+  }
 }

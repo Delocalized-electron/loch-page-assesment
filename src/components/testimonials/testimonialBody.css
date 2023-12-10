@@ -1,0 +1,13 @@
+.testimonial-body{
+  display: flex;
+  margin-left: 3rem;
+  gap: 2rem;
+  align-items: flex-end;
+}
+
+.test-cards{
+  display: flex;
+  gap: 1rem;
+  overflow-x: scroll;
+
+}

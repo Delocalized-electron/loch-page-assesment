@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolioSample.css";
-import portfolio from "../../assets/portfolioSample.svg";
+import portfolio from "../../assets/portfolioSample.png";
 import PortfolioText from "./portfolioText";
 
 const PortfolioSample = () => {

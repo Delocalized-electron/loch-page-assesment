@@ -1,8 +1,21 @@
 .side-info{
-  margin: 3rem;
-  margin-top: 4rem;
-  overflow: hidden;
+  width: 55%;
+  max-width: 55%;
+  margin: 2rem 0;
   display: flex;
-  margin-bottom: 2rem;
+  flex-direction: column;
+  gap: 2rem;
 }
 
+.notification-info{
+  overflow: hidden;
+  display: flex;
+  padding-left: 3rem;
+
+}
+
+@media screen and (max-width:750px) {
+  .side-info{
+    flex-direction: column;
+  }
+}

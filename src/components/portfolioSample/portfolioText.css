@@ -1,9 +1,9 @@
 .portfolio-text-info{
-  max-width: 25%;
+  max-width: 50%;
   width: fit-content;
   text-align: right;
-  width: 25rem;
-  margin: 4rem;
+  width: 50%;
+
 }
 
 .portfolio-text-info >img{

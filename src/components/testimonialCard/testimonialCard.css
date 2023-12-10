@@ -1,0 +1,30 @@
+.testimonial-card{
+  background: #fff;
+  display: flex;
+
+  flex-direction: column;
+  border-radius: 12px;
+  width: 70%;
+  padding: 1rem;
+  min-width: 60%;
+  gap: 1rem;
+}
+
+.testimonial-meta{
+  height: 30%;
+  display: flex;
+  padding: 0;
+  margin: 0 ;
+  gap: 1rem;
+}
+
+.test-name{
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.test-company{
+  color: #96979a;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
