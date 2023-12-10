@@ -1,0 +1,10 @@
+.portfolio-sample{
+  margin: 1rem;
+  overflow: hidden;
+  display: flex;
+}
+.portfolio-sample>img{
+
+
+  height: 20rem;
+}

@@ -1,0 +1,11 @@
+.card-layout{
+  padding: 1rem;
+  border-radius: 14px;
+  background: white;
+  margin: 0;
+  width: 10rem;
+}
+
+#first-card{
+  background-image: linear-gradient(white, rgba(22, 93, 255, 0.10));
+}

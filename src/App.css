@@ -2,4 +2,22 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  background-image: url("../src/assets/bluela.svg");
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width:750px){
+  .app{
+    flex-direction: row;
+  }
+  .div{
+    height: 100vh;
+    border: 1px dashed red;
+    overflow: hidden;
+  }
+  
+  
 }

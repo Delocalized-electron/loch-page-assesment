@@ -1,0 +1,21 @@
+.info-head{
+  color: #F2F2F2;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+.notification-text-info{
+  max-width: 25%;
+  width: fit-content;
+}
+
+.notification-text-info >img{
+  margin: 0.5rem;
+}
+
+.info-text{
+  color: rgba(242, 242, 242, 0.7);
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.5rem;
+}
