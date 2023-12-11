@@ -9,3 +9,20 @@
 .portfolio-text-info >img{
   margin: 0.5rem;
 }
+
+@media screen and (max-width:768px) {
+  .portfolio-text-info{
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    
+  }
+  .portfolio-text-info >img{
+    
+  }
+}

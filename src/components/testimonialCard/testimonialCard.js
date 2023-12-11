@@ -7,8 +7,7 @@ const TestimonialCard = (props) => {
     company: props.company,
     comment: props.comment,
   };
-  console.log(data);
-  console.log(props);
+
   return (
     <div className="testimonial-card">
       <div className="testimonial-meta">

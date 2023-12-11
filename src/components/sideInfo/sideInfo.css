@@ -15,14 +15,34 @@
 
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
   .side-info{
-
+    height: 60%;
     width: 100%;
     max-width: 100%;
   }
   .notification-info{
-
-    padding: 1rem;
+    flex-direction: column;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;;
+    max-width: 100%;
+    overflow-x: auto;
+    gap: 3rem;
+  }
+  .custom-dot {
+    width: 10px;
+    height: 10px;
+    background-color:#979797; /* Change the dot color */
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .slick-active .custom-dot {
+    background-color: #fff; 
   }
 }

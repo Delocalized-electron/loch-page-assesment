@@ -21,11 +21,36 @@
 }
 
 
-@media screen and (max-width:750px) {
-  .info-head{
-    width: auto;
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+@media screen and (max-width:768px) {
+  .notification-text-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
     width: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+
+
   }
+  .notification-text-info >img{
+    display: inline;
+
+  }
+
+  .info-head{
+    margin: 0 3rem;
+    font-size: 6vw;
+
+  }
+
+  .info-text{
+    margin: 0 3rem;
+    font-size: 3vw;
+
+  }
+ 
 }
