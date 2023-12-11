@@ -25,3 +25,9 @@
   border: none;
 
 }
+
+@media screen and (max-width:768px) {
+  .testimonial-title{
+    text-align: center;
+  }
+}

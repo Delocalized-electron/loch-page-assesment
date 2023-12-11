@@ -28,3 +28,9 @@
   font-weight: 500;
   font-size: 0.9rem;
 }
+
+@media screen and (max-width:768px) {
+  .test-name{
+    width: 25%;
+  }
+}
