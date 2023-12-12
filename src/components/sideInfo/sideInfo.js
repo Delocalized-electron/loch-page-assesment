@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,9 +7,22 @@ import NotificationInfo from "../notificationInfo/notificationInfo";
 import CardInfo from "../cardInfo/cardInfo";
 import PortfolioSample from "../portfolioSample/portfolioSample";
 import Testimonial from "../testimonials/testimonial";
-import { isMobile } from "react-device-detect";
 
 function SideInfo() {
+  const [checkMobile, setCheckMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setCheckMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -23,8 +36,7 @@ function SideInfo() {
       return <div className="custom-dot"></div>;
     },
   };
-  if (isMobile) {
-    console.log(isMobile);
+  if (checkMobile) {
     return (
       <div className="side-info">
         <Slider {...settings}>
