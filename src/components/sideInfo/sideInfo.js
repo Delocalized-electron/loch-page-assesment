@@ -16,7 +16,8 @@ function SideInfo() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
+    arrows: false,
     autoplaySpeed: 3000,
     customPaging: function (i) {
       return <div className="custom-dot"></div>;

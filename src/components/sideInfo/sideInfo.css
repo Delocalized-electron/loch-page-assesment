@@ -17,9 +17,10 @@
 
 @media screen and (max-width:768px) {
   .side-info{
-    height: 60%;
+    height: 60vh;
     width: 100%;
     max-width: 100%;
+    overflow-y: scroll;
   }
   .notification-info{
     flex-direction: column;
@@ -44,5 +45,6 @@
   }
   .slick-active .custom-dot {
     background-color: #fff; 
+
   }
 }
